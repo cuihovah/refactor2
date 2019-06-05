@@ -1,5 +1,5 @@
 # refactor2
-学习重构
+学习重构（just for learn)
 
 ## 一道面试题引发的思考
 >**场景:** 设想有一个戏剧演出团，演员们经常要去各种场合表演戏剧。通常客户（customs)会指定几
@@ -51,11 +51,10 @@ const statement = (invoice, plays) => {
     result += `You earned ${volumeCredits} credits\n`;
     return result;
 };
-
-module.exports = statement;
 ```
 
 invoices.json ...
+
 ```json
 [
     {
@@ -71,9 +70,11 @@ invoices.json ...
             "audience": 40
         }]
     }
-]```
+]
+```
 
 plays.json ...
+
 ```json
 {
     "hamlet": {"name": "Hamlet", "type": "tragedy"},
