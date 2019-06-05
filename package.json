@@ -1,0 +1,26 @@
+{
+  "name": "refactor2",
+  "version": "1.0.0",
+  "description": "学习重构",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuihovah/refactor2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuihovah/refactor2/issues"
+  },
+  "homepage": "https://github.com/cuihovah/refactor2#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
